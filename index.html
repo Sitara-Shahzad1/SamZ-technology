@@ -3,10 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript practice </title>
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #1f2fd5;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+            color: #1e1b1b;
+        }
+        ul {
+            list-style-type: square;
+            margin: 2px;
+            padding: 10px;
+            display: inline-block;
+            text-align: left;
+            text-decoration: underline;
+            color: rgb(84, 78, 147);
+            font-size: 18px;
+        }
+        img {
+            width: 300px;
+            border-radius: 40%;
+            margin-top: 10px;
+            border: 4px solid #3517c8;
+        }
+        img:hover{
+            border-radius: 70%;
+            border: 4px solid #e51414;
+        }
+        a {
+            display: block;
+            margin-top: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #007BFF;
+        }
+        a:hover {
+            color: #087efb;
+            font-size: 20px;
+        }
+        .container {
+            background: rgb(211, 212, 213);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        b{
+            color: #d91240;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+        li {
+            list-style-type: circle;
+        }
+        .news{
+            background-color: #dce2e9;
+        }
+        
+    </style>
 </head>
 <body>
-    <script src="script.js"></script>
-    <h1>Hey We are Practicing JavaScript </h1>
-</body>
+
+    <div class="container">
+   <marquee class="news"><h1>Welcome to My Webpage! </h1> </marquee> 
+        <h2 >About Me</h2>
+        <p>  
+            <b>Name:</b> Sitara Shahzad <br>
+            <b>Age :</b> 20 y/o<br>
+            <b>Intro :</b>  I am doing my bachelor's in computer Sciences from Virtual University of pakistan. I am an internee with a reputable organization <b style="font-size: 22px;">SamZ-technology. </b>
+
+
+
+        </p>
+       
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Teaching</li>
+            <li>Photography</li>
+            <li>Exercise</li>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Gardening</li>
+        </ul>
+        
+        <h2>My Picture</h2>
+        <p style="color: #d91240;">Hover on me please....</p>
+        <img src="profilepic.jpg">
+
+        <h2>Github website</h2>
+        <p>I made a Github profile.</p>
+        <a href="https://github.com/Sitara-Shahzad1/SamZ-technology/upload/main"target="_blank">Visit My GitHub Profile</a>
+    </div>
+
+</body>""
 </html>
